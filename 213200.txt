@@ -1,0 +1,30 @@
+4. cd SI_2023_lab1_213200
+   git init https://github.com/AndrejStojov/SI_2023_lab1_213200// го отвараме локалниот репозиториум
+5. git remote add origin // повруваме се со оддалечениот репозиториум
+6. git add README.md // додаваме file на репозиториумот
+   git commit -m "Initial commit" // правеме комит
+7. git add SILab1.java // додаваме јава file
+   git commit -m "Add java class" // му правиме комит на java file
+8. git push origin master // со push го пренесуваме на оддалечениот репозиториум
+9. git branch bug1 // отвараме гранка bug1
+   git branch bug2 // отвараме гранка bug2
+   git branch bug3 // отвараме гранка bug3
+10. git checkout bug1 // се префрламе на гранката bug1
+11. git commit-a -m "Fix wrong loop for reading" // правеме комит полсе поправанње на грешката во кодот
+12. git checkout bug2 //се префрламе на гранката bug2
+13. git commit-a -m "Fix wrong condition in filterOddNumbers" // правеме комит полсе поправанње на грешката во кодот
+14. git checkout bug3 //се префрламе на гранката bug3
+15. git commit-a -m "Fix method sumEvenNumbers" // правеме комит полсе поправанње на грешката во кодот
+16. git push origin bug1 
+    git push origin bug2
+    git push origin bug3//со push го пренесуваме на оддалечениот репозиториум
+17. git checkout master //се префрламе на гранката мастер
+18. git merge bug1 //немаме конфликт при спојување
+19. git push origin master // со push го пренесуваме на оддалечениот репозиториум
+20. git merge bug2 // немаме конфликт при спојување
+21. git push origin master// со push го пренесуваме на оддалечениот репозиториум
+22. git checkout bug3 //е префрламе на гранката bug3
+23. git rebase master // правиме rebase 
+24. git checkout master //се префрламе на гранката мастер 
+25. git merge bug3 // немаме конфликт при спојување
+26. git push origin master // со push го пренесуваме на оддалечениот репозиториум

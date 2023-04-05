@@ -1,0 +1,36 @@
+commit d7d929eebc27c86fd0b2dec4e4ad1f1391340281 (HEAD -> master, origin/master, origin/bug3, bug3)
+Author: AndrejStojov <andrej2002stojov@gmail.com>
+Date:   Thu Mar 23 00:56:53 2023 +0100
+
+    Fix method sumEvenNumbers
+
+commit 230f885fe72d1794512abaf22d02e191cd205b4d
+Merge: 63feab6 562d384
+Author: AndrejStojov <andrej2002stojov@gmail.com>
+Date:   Thu Mar 23 00:57:32 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 562d3846481535081908dea52cd45ddb4b3cd9a5 (origin/bug2, bug2)
+Author: AndrejStojov <andrej2002stojov@gmail.com>
+Date:   Thu Mar 23 00:56:04 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit 63feab6a6fc904e78fb0e96d9da3330c2bf14231 (origin/bug1, bug1)
+Author: AndrejStojov <andrej2002stojov@gmail.com>
+Date:   Thu Mar 23 00:54:52 2023 +0100
+
+    Fix wrong loop for reading
+
+commit 268b278564a0c5d3b1f4e446edfe0e7ce5aed7d3
+Author: AndrejStojov <andrej2002stojov@gmail.com>
+Date:   Thu Mar 23 00:47:22 2023 +0100
+
+    Add java class
+
+commit 59c06526a8215e6450859555e582d1b45c1cd77f
+Author: AndrejStojov <andrej2002stojov@gmail.com>
+Date:   Thu Mar 23 00:02:45 2023 +0100
+
+    Initial commit
